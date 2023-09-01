@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Language Translation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Live Language Translation</h1>
+        <div class="input-container">
+            <label for="sourceText">Enter Text:</label>
+            <textarea id="sourceText" placeholder="Type or paste text here"></textarea>
+        </div>
+        <div class="select-container">
+            <label for="targetLanguage">Select Target Language:</label>
+            <select id="targetLanguage">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <!-- Add more language options -->
+            </select>
+        </div>
+        <div class="translation-container">
+            <h2>Translated Text:</h2>
+            <div id="translatedText"></div>
+        </div>
+        <button id="translateButton">Translate</button>
+    </div>
+    <script src="script.js" src="https://www.google.com/recaptcha/api.js" const API_KEY = 'AIzaSyBQxDKWycaoN3ohCBTukimRcDiA3J72Xp8';
+    ></script>
+
+</body>
+</html>
